@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load trained model
-model = pickle.load(open("exam_result_model.pkl", "rb"))
+model = load("results.csv)
 
 st.set_page_config(page_title="Exam Result Prediction", page_icon="📘")
 
